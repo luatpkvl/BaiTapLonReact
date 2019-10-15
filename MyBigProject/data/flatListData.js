@@ -1,0 +1,123 @@
+var dataList = [
+    {
+        "key": '13',
+        "name" : "Sườn xào chua ngọt",
+        "imageURL" : "https://cdn.eva.vn/upload/3-2019/images/2019-08-31/cho-duoi-lon-vao-noi-com-dien-cung-vai-gia-vi-sau-40-phut-duoc-mon-kho-ngon-cuc-pham-ffa6c355720d48548d16948419cc7a54-1567251413-18-width1080height747.jpeg",
+        "price": "8000",
+    },
+    {
+        "key": '2331',
+        "name" : "Lòng xào dưa",
+        "imageURL" : "https://anh.eva.vn/upload/3-2017/images/2017-08-28/1503890052-mon-ngon-moi-ngay.jpg",
+        "price": "75000",
+    },
+    {
+        "key": '12313',
+        "name" : "Thịt lợn hun khói",
+        "imageURL" : "http://channel.mediacdn.vn/prupload/164/2017/08/img20170831014944193.jpg",
+        "price": "65000",
+    },
+    {
+        "key": '1312312',
+        "name" : "Gà tần thuốc băc",
+        "imageURL" : "https://cdn.tuoitre.vn/thumb_w/640/2019/8/13/chang-chang-kho-keo-15656914451021256023638.jpg",
+        "price": "KTYS",
+    },
+    {
+        "key": '5353',
+        "name" : "Sườn xào chua ngọt",
+        "imageURL" : "https://cdn.eva.vn/upload/3-2019/images/2019-08-31/cho-duoi-lon-vao-noi-com-dien-cung-vai-gia-vi-sau-40-phut-duoc-mon-kho-ngon-cuc-pham-ffa6c355720d48548d16948419cc7a54-1567251413-18-width1080height747.jpeg",
+        "price": "8000",
+    },
+    {
+        "key": '5234234',
+        "name" : "Lòng xào dưa",
+        "imageURL" : "https://anh.eva.vn/upload/3-2017/images/2017-08-28/1503890052-mon-ngon-moi-ngay.jpg",
+        "price": "75000",
+    },
+    {
+        "key": '5344143',
+        "name" : "Thịt lợn hun khói",
+        "imageURL" : "http://channel.mediacdn.vn/prupload/164/2017/08/img20170831014944193.jpg",
+        "price": "65000",
+    },
+    {
+        "key": '13123123',
+        "name" : "Gà tần thuốc băc",
+        "imageURL" : "https://cdn.tuoitre.vn/thumb_w/640/2019/8/13/chang-chang-kho-keo-15656914451021256023638.jpg",
+        "price": "KTYS",
+    },
+    {
+        "key": '3131231',
+        "name" : "Sườn xào chua ngọt",
+        "imageURL" : "https://cdn.eva.vn/upload/3-2019/images/2019-08-31/cho-duoi-lon-vao-noi-com-dien-cung-vai-gia-vi-sau-40-phut-duoc-mon-kho-ngon-cuc-pham-ffa6c355720d48548d16948419cc7a54-1567251413-18-width1080height747.jpeg",
+        "price": "8000",
+    },
+    {
+        "key": '413124',
+        "name" : "Lòng xào dưa",
+        "imageURL" : "https://anh.eva.vn/upload/3-2017/images/2017-08-28/1503890052-mon-ngon-moi-ngay.jpg",
+        "price": "75000",
+    },
+    {
+        "key": '14142412',
+        "name" : "Thịt lợn hun khói",
+        "imageURL" : "http://channel.mediacdn.vn/prupload/164/2017/08/img20170831014944193.jpg",
+        "price": "65000",
+    },
+    {
+        "key": '141fsdf24124',
+        "name" : "Gà tần thuốc băc",
+        "imageURL" : "https://cdn.tuoitre.vn/thumb_w/640/2019/8/13/chang-chang-kho-keo-15656914451021256023638.jpg",
+        "price": "KTYS",
+    },
+    {
+        "key": '141fa24124',
+        "name" : "Sườn xào chua ngọt",
+        "imageURL" : "https://cdn.eva.vn/upload/3-2019/images/2019-08-31/cho-duoi-lon-vao-noi-com-dien-cung-vai-gia-vi-sau-40-phut-duoc-mon-kho-ngon-cuc-pham-ffa6c355720d48548d16948419cc7a54-1567251413-18-width1080height747.jpeg",
+        "price": "8000",
+    },
+    {
+        "key": '141fas24124',
+        "name" : "Lòng xào dưa",
+        "imageURL" : "https://anh.eva.vn/upload/3-2017/images/2017-08-28/1503890052-mon-ngon-moi-ngay.jpg",
+        "price": "75000",
+    },
+    {
+        "key": '141ffasf24124',
+        "name" : "Thịt lợn hun khói",
+        "imageURL" : "http://channel.mediacdn.vn/prupload/164/2017/08/img20170831014944193.jpg",
+        "price": "65000",
+    },
+    {
+        "key": '141fasf24124',
+        "name" : "Gà tần thuốc băc",
+        "imageURL" : "https://cdn.tuoitre.vn/thumb_w/640/2019/8/13/chang-chang-kho-keo-15656914451021256023638.jpg",
+        "price": "KTYS",
+    },
+    {
+        "key": '141gvh24124',
+        "name" : "Sườn xào chua ngọt",
+        "imageURL" : "https://cdn.eva.vn/upload/3-2019/images/2019-08-31/cho-duoi-lon-vao-noi-com-dien-cung-vai-gia-vi-sau-40-phut-duoc-mon-kho-ngon-cuc-pham-ffa6c355720d48548d16948419cc7a54-1567251413-18-width1080height747.jpeg",
+        "price": "8000",
+    },
+    {
+        "key": '141241y24',
+        "name" : "Lòng xào dưa",
+        "imageURL" : "https://anh.eva.vn/upload/3-2017/images/2017-08-28/1503890052-mon-ngon-moi-ngay.jpg",
+        "price": "75000",
+    },
+    {
+        "key": '3123123123',
+        "name" : "Thịt lợn hun khói",
+        "imageURL" : "http://channel.mediacdn.vn/prupload/164/2017/08/img20170831014944193.jpg",
+        "price": "65000",
+    },
+    {
+        "key": '31237',
+        "name" : "Gà tần thuốc băc",
+        "imageURL" : "https://cdn.tuoitre.vn/thumb_w/640/2019/8/13/chang-chang-kho-keo-15656914451021256023638.jpg",
+        "price": "KTYS",
+    },
+]
+module.exports = dataList
